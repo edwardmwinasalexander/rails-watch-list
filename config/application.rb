@@ -1,3 +1,4 @@
+# rubocop:disable Layout/TrailingWhitespace
 require_relative "boot"
 
 require "rails"
@@ -40,3 +41,4 @@ module RailsWatchList
     config.generators.system_tests = nil
   end
 end
+# rubocop:enable Layout/TrailingWhitespace
